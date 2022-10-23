@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nh163</title>
+    <meta name="description" content=" This site is a test site">
+    <link rel="icon" href="./img/natsukihayashida.PNG">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            VANTA.BIRDS({
+                el: "#vanta",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00,
+                backgroundAlpha: 0.0
+            })
+            setTimeout(() => {
+                const main = document.querySelector('main')
+                main.style.opacity = 1
+                main.style.filter = 'blur(0px)'
+            },1000)
+
+        })
+    </script>
+</head>
+
+<body>
+    <div id="vanta"></div>
+    <main>
+        <header>
+            <img src="./img/natsukihayashida.PNG" />
+            <h1>@nh163</h1>
+        </header>
+        <ul>
+            <li>
+                <a href="https://notion-next-blog-mocha.vercel.app/">
+                    <img src="./img/homepage.svg" alt="homepage" width="20">
+                    official website
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/natsuki_163/">
+                    <img src="img/instagram.svg" alt="Instagram" width="20">Instagram
+                </a>
+            </li>
+            <li><a href="https://twitter.com/NH163">
+                    <img src="img/twitter.svg" alt="Twitter" width="20">Twitter
+                </a>
+            </li>
+            <li><a href="https://github.com/NatsukiHayashida">
+                    <img src="img/github.svg" alt="github" width="20">github
+                </a>
+            </li>
+        </ul>
+    </main>
+</body>
+
+</html>
