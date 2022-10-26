@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background: url(./img/IMG_1125.jpeg) no-repeat center center fixed;
+  background: url(./img/IMG_1489.jpeg) no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -34,7 +34,7 @@ main {
   position: relative;
   opacity: 0;
   filter: blur(10px);
-  transition: opacity 2s ease-in, filter 2.5s ease-in;
+  transition: opacity 4s ease-in, filter 2.5s ease-in;
 }
 
 header {
