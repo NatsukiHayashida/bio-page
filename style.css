@@ -89,3 +89,8 @@ ul > li > a {
   align-items: center;
   gap: 0.5em;
 }
+
+.official {
+  color: black;
+  /* font-weight: bold; */
+}
